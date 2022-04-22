@@ -90,10 +90,19 @@ class Vertical_List extends StatelessWidget {
                            onRatingUpdate: (rating)=>print(rating),
                            ),
                     
-                           Positioned(
+                          
+                    
+                        ],
+                      ),
+                      ),
+
+                  ],
+                ),
+                ),
+                 Positioned(
                              bottom: 34,
                              right: 0,
-                             child: Container(
+                             child: Container(//
                              //  height: MediaQuery.of(context).size.width * 0/.06,
                              //  width:  MediaQuery.of(context).size.width * 0/06,
                                decoration: BoxDecoration(
@@ -103,14 +112,6 @@ class Vertical_List extends StatelessWidget {
                                child: Icon(Icons.play_arrow,color: Colors.white,),
                              ),
                              ),
-                    
-                        ],
-                      ),
-                      ),
-
-                  ],
-                ),
-                ),
 
           ],
         ),
